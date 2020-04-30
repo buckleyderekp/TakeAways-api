@@ -4,13 +4,13 @@
         "id": 1,
         "userId": 1,
         "sourceId": 1,
-        "takeaway": ""
+        "takeaway": "I learned this cool thing"
       },
       {
         "id": 2,
         "userId": 1,
         "sourceId": 1,
-        "takeaway": ""
+        "takeaway": "I learned another cool thing"
       }
     ],
     "categories": [
@@ -28,7 +28,7 @@
           "email": "buckleyderekp@gmail.com",
           "password": "Charli1205",
           "name": "Derek Buckley",
-          "id": 3
+          "id": 1
         }
       ],
     "sources": [

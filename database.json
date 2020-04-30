@@ -1,100 +1,108 @@
 {
-    "takeaways": [
-      {
-        "id": 1,
-        "userId": 1,
-        "sourceId": 1,
-        "takeaway": "I learned this cool thing"
-      },
-      {
-        "id": 2,
-        "userId": 1,
-        "sourceId": 1,
-        "takeaway": "I learned another cool thing"
-      }
-    ],
-    "categories": [
-      {
-        "id": 1,
-        "category": ""
-      },
-      {
-        "id": 2,
-        "category": ""
-      }
-    ],
-    "users": [
-        {
-          "email": "buckleyderekp@gmail.com",
-          "password": "Charli1205",
-          "name": "Derek Buckley",
-          "id": 1
-        }
-      ],
-    "sources": [
-      {
-        "id": 1,
-        "source": "",
-        "typeId": 1
-      },
-      {
-        "id": 2,
-        "source": "",
-        "typeId": 1
-      }
-    ],
-    "type": [
-      {
-        "id": 1,
-        "type": "Book"
-      },
-      {
-        "id": 2,
-        "type": "Audio Book"
-      },
-      {
-        "id": 3,
-        "type": "Online Article"
-      },
-      {
-        "id": 4,
-        "type": "Social Media"
-      },
-      {
-        "id": 5,
-        "type": "Newspaper Article"
-      },
-      {
-        "id": 6,
-        "type": "Other"
-      }
-    ],
-    "messages": [
-      {
-        "id": 1,
-        "initiatorId": 1,
-        "receiverId": 2,
-        "messsage": "",
-        "takeaway": 0
-      }
-    ],
-    "following": [
-      {
-        "id": 1,
-        "followerId": 1,
-        "FollowedId": 2
-      },
-      {
-        "id": 1,
-        "followerId": 2,
-        "FollowedId": 1
-      }
-    ],
-    "takeawaysCategories": [
-      {
-        "id": 1,
-        "takeawayId": 1,
-        "CategoryId": 1
-      }
-    ]
-  }
+  "takeaways": [
+    {
+      "id": 1,
+      "userId": 1,
+      "sourceId": 1,
+      "categoryId": 1,
+      "takeaway": "I learned this cool thing"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "sourceId": 2,
+      "categoryId": 2,
+      "takeaway": "I learned another cool thing"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "NeuroScience"
+    },
+    {
+      "id": 2,
+      "category": "Quantum Physics"
+    }
+  ],
+  "users": [
+    {
+      "email": "buckleyderekp@gmail.com",
+      "password": "Charli1205",
+      "name": "Derek Buckley",
+      "id": 1
+    },
+    {
+      "email": "drock5121@gmail.com",
+      "password": "thisisapassword",
+      "name": "D Rock BoHam",
+      "id": 2
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "source": "This book I read",
+      "typeId": 1
+    },
+    {
+      "id": 2,
+      "source": "This Article I found",
+      "typeId": 1
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "type": "Book"
+    },
+    {
+      "id": 2,
+      "type": "Audio Book"
+    },
+    {
+      "id": 3,
+      "type": "Online Article"
+    },
+    {
+      "id": 4,
+      "type": "Social Media"
+    },
+    {
+      "id": 5,
+      "type": "Newspaper Article"
+    },
+    {
+      "id": 6,
+      "type": "Other"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "initiatorId": 1,
+      "receiverId": 2,
+      "messsage": "",
+      "takeaway": 0
+    }
+  ],
+  "following": [
+    {
+      "id": 1,
+      "followerId": 1,
+      "FollowedId": 2
+    },
+    {
+      "id": 1,
+      "followerId": 2,
+      "FollowedId": 1
+    }
+  ],
+  "takeawaysCategories": [
+    {
+      "id": 1,
+      "takeawayId": 1,
+      "CategoryId": 1
+    }
+  ]
+}

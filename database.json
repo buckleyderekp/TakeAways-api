@@ -4,25 +4,66 @@
       "id": 1,
       "userId": 1,
       "sourceId": 1,
-      "categoryId": 1,
       "takeaway": "I learned this cool thing"
     },
     {
       "id": 2,
       "userId": 1,
       "sourceId": 2,
-      "categoryId": 2,
       "takeaway": "I learned another cool thing"
+    },
+    {
+      "userId": 1,
+      "sourceId": 3,
+      "takeaway": "stuff",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "sourceId": 2,
+      "takeaway": "I learnde things",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "sourceId": 1,
+      "takeaway": "dfgsdfgsdfgsdfgsdfg",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "sourceId": 1,
+      "takeaway": "asldjfasdf",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "sourceId": 9,
+      "takeaway": "sciency thing",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "sourceId": 1,
+      "takeaway": "asdfasdfad",
+      "id": 8
     }
   ],
   "categories": [
     {
       "id": 1,
+      "userId": 1,
       "category": "NeuroScience"
     },
     {
       "id": 2,
+      "userId": 1,
       "category": "Quantum Physics"
+    },
+    {
+      "category": "adsfasdf",
+      "userId": 1,
+      "id": 3
     }
   ],
   "users": [
@@ -43,12 +84,104 @@
     {
       "id": 1,
       "source": "This book I read",
+      "userId": 1,
       "typeId": 1
     },
     {
       "id": 2,
       "source": "This Article I found",
+      "userId": 1,
       "typeId": 1
+    },
+    {
+      "source": "this will work I know it",
+      "userId": 1,
+      "typeId": 2,
+      "id": 3
+    },
+    {
+      "source": "new book I read",
+      "typeId": null,
+      "id": 4
+    },
+    {
+      "source": "blah blah blah",
+      "typeId": null,
+      "id": 5
+    },
+    {
+      "source": "new source aslekdf",
+      "typeId": null,
+      "id": 6
+    },
+    {
+      "source": "taco",
+      "typeId": null,
+      "id": 7
+    },
+    {
+      "source": "I bought a new book today",
+      "typeId": null,
+      "id": 8
+    },
+    {
+      "source": "I used an audible credit today",
+      "typeId": null,
+      "id": 9
+    },
+    {
+      "source": ",asdf/.a,smdf",
+      "typeId": null,
+      "id": 10
+    },
+    {
+      "source": "sdfasdfasd",
+      "typeId": null,
+      "id": 11
+    },
+    {
+      "source": "10:29",
+      "typeId": null,
+      "id": 12
+    },
+    {
+      "source": "10:31",
+      "id": 13
+    },
+    {
+      "source": "10:31",
+      "typeId": null,
+      "id": 14
+    },
+    {
+      "source": "asdfasdf 10:32",
+      "typeId": null,
+      "id": 15
+    },
+    {
+      "source": "10:35",
+      "typeId": null,
+      "id": 16
+    },
+    {
+      "source": "new source 10:38",
+      "typeId": null,
+      "id": 17
+    },
+    {
+      "source": "10:40",
+      "typeId": null,
+      "id": 18
+    },
+    {
+      "source": "10:44",
+      "typeId": null,
+      "id": 19
+    },
+    {
+      "source": "10:48",
+      "typeId": 1,
+      "id": 20
     }
   ],
   "types": [
@@ -102,7 +235,27 @@
     {
       "id": 1,
       "takeawayId": 1,
-      "CategoryId": 1
+      "categoryId": 1
+    },
+    {
+      "takeawayId": 6,
+      "categoryId": 1,
+      "id": 2
+    },
+    {
+      "takeawayId": 7,
+      "categoryId": 1,
+      "id": 3
+    },
+    {
+      "takeawayId": 7,
+      "categoryId": 2,
+      "id": 4
+    },
+    {
+      "takeawayId": 8,
+      "categoryId": 1,
+      "id": 5
     }
   ]
 }

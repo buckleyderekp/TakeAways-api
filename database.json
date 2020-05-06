@@ -20,33 +20,21 @@
     },
     {
       "userId": 1,
-      "sourceId": 2,
-      "takeaway": "I learnde things",
+      "sourceId": 3,
+      "takeaway": "stuff",
       "id": 4
     },
     {
       "userId": 1,
-      "sourceId": 1,
-      "takeaway": "dfgsdfgsdfgsdfgsdfg",
+      "sourceId": 3,
+      "takeaway": "stuff",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "sourceId": 3,
+      "takeaway": "stuff",
       "id": 5
-    },
-    {
-      "userId": 1,
-      "sourceId": 1,
-      "takeaway": "asldjfasdf",
-      "id": 6
-    },
-    {
-      "userId": 1,
-      "sourceId": 9,
-      "takeaway": "sciency thing",
-      "id": 7
-    },
-    {
-      "userId": 1,
-      "sourceId": 1,
-      "takeaway": "asdfasdfad",
-      "id": 8
     }
   ],
   "categories": [
@@ -61,9 +49,14 @@
       "category": "Quantum Physics"
     },
     {
-      "category": "adsfasdf",
+      "category": "Negotiation",
       "userId": 1,
       "id": 3
+    },
+    {
+      "category": "rocket surgery",
+      "userId": 1,
+      "id": 4
     }
   ],
   "users": [
@@ -100,88 +93,10 @@
       "id": 3
     },
     {
-      "source": "new book I read",
-      "typeId": null,
-      "id": 4
-    },
-    {
-      "source": "blah blah blah",
-      "typeId": null,
-      "id": 5
-    },
-    {
-      "source": "new source aslekdf",
-      "typeId": null,
-      "id": 6
-    },
-    {
-      "source": "taco",
-      "typeId": null,
-      "id": 7
-    },
-    {
-      "source": "I bought a new book today",
-      "typeId": null,
-      "id": 8
-    },
-    {
-      "source": "I used an audible credit today",
-      "typeId": null,
-      "id": 9
-    },
-    {
-      "source": ",asdf/.a,smdf",
-      "typeId": null,
-      "id": 10
-    },
-    {
-      "source": "sdfasdfasd",
-      "typeId": null,
-      "id": 11
-    },
-    {
-      "source": "10:29",
-      "typeId": null,
-      "id": 12
-    },
-    {
-      "source": "10:31",
-      "id": 13
-    },
-    {
-      "source": "10:31",
-      "typeId": null,
-      "id": 14
-    },
-    {
-      "source": "asdfasdf 10:32",
-      "typeId": null,
-      "id": 15
-    },
-    {
-      "source": "10:35",
-      "typeId": null,
-      "id": 16
-    },
-    {
-      "source": "new source 10:38",
-      "typeId": null,
-      "id": 17
-    },
-    {
-      "source": "10:40",
-      "typeId": null,
-      "id": 18
-    },
-    {
-      "source": "10:44",
-      "typeId": null,
-      "id": 19
-    },
-    {
-      "source": "10:48",
-      "typeId": 1,
-      "id": 20
+      "source": "this should not show up",
+      "userId": 2,
+      "typeId": 2,
+      "id": 3
     }
   ],
   "types": [
@@ -238,24 +153,14 @@
       "categoryId": 1
     },
     {
-      "takeawayId": 6,
-      "categoryId": 1,
-      "id": 2
+      "id": 1,
+      "takeawayId": 2,
+      "categoryId": 2
     },
     {
-      "takeawayId": 7,
-      "categoryId": 1,
-      "id": 3
-    },
-    {
-      "takeawayId": 7,
-      "categoryId": 2,
-      "id": 4
-    },
-    {
-      "takeawayId": 8,
-      "categoryId": 1,
-      "id": 5
+      "id": 1,
+      "takeawayId": 3,
+      "categoryId": 3
     }
   ]
 }

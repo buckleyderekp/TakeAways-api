@@ -78,18 +78,6 @@
       "typeId": 2,
       "userId": 1,
       "id": 6
-    },
-    {
-      "source": "A book",
-      "typeId": 1,
-      "userId": 1,
-      "id": 7
-    },
-    {
-      "source": "kjhkjhkj",
-      "typeId": 2,
-      "userId": 1,
-      "id": 8
     }
   ],
   "types": [

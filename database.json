@@ -1,40 +1,22 @@
 {
   "takeaways": [
     {
-      "id": 1,
+      "id": 9,
       "userId": 1,
-      "sourceId": 1,
-      "takeaway": "I learned this cool thing"
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "sourceId": 2,
-      "takeaway": "I learned another cool thing"
+      "sourceId": 4,
+      "takeaway": "Tactical empathy. An inventory of the other persons point of view without judgement or disagreement"
     },
     {
       "userId": 1,
-      "sourceId": 3,
-      "takeaway": "stuff",
-      "id": 3
+      "sourceId": 4,
+      "takeaway": "Don't ask how you can make more money, ask how you can be a better employee.",
+      "id": 10
     },
     {
       "userId": 1,
-      "sourceId": 3,
-      "takeaway": "stuff",
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "sourceId": 3,
-      "takeaway": "stuff",
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "sourceId": 3,
-      "takeaway": "stuff",
-      "id": 5
+      "sourceId": 5,
+      "takeaway": "At the start of the interview ask \"what about my resume and experience made you think that I may be a good fit for this job?\"",
+      "id": 11
     }
   ],
   "categories": [
@@ -57,6 +39,26 @@
       "category": "rocket surgery",
       "userId": 1,
       "id": 4
+    },
+    {
+      "category": "Salary Negotiation",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "category": "interviewing",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "category": "cooking",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "category": "THis is a new category",
+      "userId": 1,
+      "id": 8
     }
   ],
   "users": [
@@ -97,6 +99,36 @@
       "userId": 2,
       "typeId": 2,
       "id": 3
+    },
+    {
+      "source": "Never Split the Difference",
+      "typeId": 2,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "source": "Pre-suasion",
+      "typeId": 2,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "source": "Neurosculpting: Stress",
+      "typeId": 2,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "source": "A book",
+      "typeId": 1,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "source": "kjhkjhkj",
+      "typeId": 2,
+      "userId": 1,
+      "id": 8
     }
   ],
   "types": [
@@ -148,19 +180,29 @@
   ],
   "takeawaysCategories": [
     {
-      "id": 1,
-      "takeawayId": 1,
-      "categoryId": 1
+      "takeawayId": 9,
+      "categoryId": 3,
+      "id": 2
     },
     {
-      "id": 1,
-      "takeawayId": 2,
-      "categoryId": 2
+      "takeawayId": 9,
+      "categoryId": 5,
+      "id": 3
     },
     {
-      "id": 1,
-      "takeawayId": 3,
-      "categoryId": 3
+      "takeawayId": 10,
+      "categoryId": 3,
+      "id": 4
+    },
+    {
+      "takeawayId": 10,
+      "categoryId": 5,
+      "id": 5
+    },
+    {
+      "takeawayId": 11,
+      "categoryId": 6,
+      "id": 6
     }
   ]
 }

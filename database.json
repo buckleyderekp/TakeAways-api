@@ -36,29 +36,14 @@
       "id": 3
     },
     {
-      "category": "rocket surgery",
-      "userId": 1,
-      "id": 4
-    },
-    {
       "category": "Salary Negotiation",
       "userId": 1,
       "id": 5
     },
     {
-      "category": "interviewing",
+      "category": "Interviewing",
       "userId": 1,
       "id": 6
-    },
-    {
-      "category": "cooking",
-      "userId": 1,
-      "id": 7
-    },
-    {
-      "category": "THis is a new category",
-      "userId": 1,
-      "id": 8
     }
   ],
   "users": [
@@ -76,30 +61,6 @@
     }
   ],
   "sources": [
-    {
-      "id": 1,
-      "source": "This book I read",
-      "userId": 1,
-      "typeId": 1
-    },
-    {
-      "id": 2,
-      "source": "This Article I found",
-      "userId": 1,
-      "typeId": 1
-    },
-    {
-      "source": "this will work I know it",
-      "userId": 1,
-      "typeId": 2,
-      "id": 3
-    },
-    {
-      "source": "this should not show up",
-      "userId": 2,
-      "typeId": 2,
-      "id": 3
-    },
     {
       "source": "Never Split the Difference",
       "typeId": 2,

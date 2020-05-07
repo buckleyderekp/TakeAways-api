@@ -17,6 +17,12 @@
       "sourceId": 5,
       "takeaway": "At the start of the interview ask \"what about my resume and experience made you think that I may be a good fit for this job?\"",
       "id": 11
+    },
+    {
+      "userId": 1,
+      "sourceId": 7,
+      "takeaway": "The human heart has 40,000 sensory neurites that are like brain cells and are capable of storing memories",
+      "id": 12
     }
   ],
   "categories": [
@@ -44,6 +50,11 @@
       "category": "Interviewing",
       "userId": 1,
       "id": 6
+    },
+    {
+      "category": "Biology",
+      "userId": 1,
+      "id": 7
     }
   ],
   "users": [
@@ -78,6 +89,12 @@
       "typeId": 2,
       "userId": 1,
       "id": 6
+    },
+    {
+      "source": "Missing Links",
+      "typeId": 6,
+      "userId": 1,
+      "id": 7
     }
   ],
   "types": [
@@ -152,6 +169,11 @@
       "takeawayId": 11,
       "categoryId": 6,
       "id": 6
+    },
+    {
+      "takeawayId": 12,
+      "categoryId": 7,
+      "id": 7
     }
   ]
 }

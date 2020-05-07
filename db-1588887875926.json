@@ -1,0 +1,169 @@
+{
+  "takeaways": [
+    {
+      "id": 9,
+      "userId": 1,
+      "sourceId": 4,
+      "takeaway": "Tactical empathy. An inventory of the other persons point of view without judgement or disagreement"
+    },
+    {
+      "userId": 1,
+      "sourceId": 4,
+      "takeaway": "Don't ask how you can make more money, ask how you can be a better employee.",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "sourceId": 5,
+      "takeaway": "At the start of the interview ask \"what about my resume and experience made you think that I may be a good fit for this job?\"",
+      "id": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "userId": 1,
+      "category": "NeuroScience"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "category": "Quantum Physics"
+    },
+    {
+      "category": "Negotiation",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "category": "Salary Negotiation",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "category": "Interviewing",
+      "userId": 1,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "email": "buckleyderekp@gmail.com",
+      "password": "Charli1205",
+      "name": "Derek Buckley",
+      "id": 1
+    },
+    {
+      "email": "drock5121@gmail.com",
+      "password": "thisisapassword",
+      "name": "D Rock BoHam",
+      "id": 2
+    }
+  ],
+  "sources": [
+    {
+      "source": "Never Split the Difference",
+      "typeId": 2,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "source": "Pre-suasion",
+      "typeId": 2,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "source": "Neurosculpting: Stress",
+      "typeId": 2,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "source": "A book",
+      "typeId": 1,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "source": "kjhkjhkj",
+      "typeId": 2,
+      "userId": 1,
+      "id": 8
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "type": "Book"
+    },
+    {
+      "id": 2,
+      "type": "Audio Book"
+    },
+    {
+      "id": 3,
+      "type": "Online Article"
+    },
+    {
+      "id": 4,
+      "type": "Social Media"
+    },
+    {
+      "id": 5,
+      "type": "Newspaper Article"
+    },
+    {
+      "id": 6,
+      "type": "Other"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "initiatorId": 1,
+      "receiverId": 2,
+      "messsage": "",
+      "takeaway": 0
+    }
+  ],
+  "following": [
+    {
+      "id": 1,
+      "followerId": 1,
+      "FollowedId": 2
+    },
+    {
+      "id": 1,
+      "followerId": 2,
+      "FollowedId": 1
+    }
+  ],
+  "takeawaysCategories": [
+    {
+      "takeawayId": 9,
+      "categoryId": 3,
+      "id": 2
+    },
+    {
+      "takeawayId": 9,
+      "categoryId": 5,
+      "id": 3
+    },
+    {
+      "takeawayId": 10,
+      "categoryId": 3,
+      "id": 4
+    },
+    {
+      "takeawayId": 10,
+      "categoryId": 5,
+      "id": 5
+    },
+    {
+      "takeawayId": 11,
+      "categoryId": 6,
+      "id": 6
+    }
+  ]
+}

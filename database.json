@@ -7,10 +7,10 @@
       "takeaway": "Tactical empathy. An inventory of the other persons point of view without judgement or disagreement"
     },
     {
+      "id": 10,
       "userId": 1,
       "sourceId": 4,
-      "takeaway": "Don't ask how you can make more money, ask how you can be a better employee.",
-      "id": 10
+      "takeaway": "Don't ask how you can make more money, ask how you can be a better employee."
     },
     {
       "id": 11,
@@ -19,26 +19,23 @@
       "takeaway": "At the start of the interview ask \"what about my resume and experience made you think that I may be a good fit for this job?\""
     },
     {
+      "id": 12,
       "userId": 1,
       "sourceId": 7,
-      "takeaway": "The human heart has 40,000 sensory neurites that are like brain cells and are capable of storing memories",
-      "id": 12
+      "takeaway": "The human heart has 40,000 sensory neurites that are like brain cells and are capable of storing memories"
     }
   ],
   "categories": [
     {
-      "id": 1,
-      "userId": 1,
-      "category": "NeuroScience"
+      "category": "NeuroScience",
+      "id": 1
     },
     {
-      "id": 2,
-      "userId": 1,
-      "category": "Quantum Physics"
+      "category": "Quantum Physics",
+      "id": 2
     },
     {
       "category": "Negotiation",
-      "userId": 1,
       "id": 3
     },
     {
@@ -74,9 +71,9 @@
   "sources": [
     {
       "source": "Never Split the Difference",
+      "id": 4,
       "typeId": 2,
-      "userId": 1,
-      "id": 4
+      "userId": 1
     },
     {
       "source": "Pre-suasion",
@@ -151,19 +148,9 @@
       "id": 2
     },
     {
-      "takeawayId": 9,
-      "categoryId": 5,
-      "id": 3
-    },
-    {
       "takeawayId": 10,
       "categoryId": 3,
       "id": 4
-    },
-    {
-      "takeawayId": 10,
-      "categoryId": 5,
-      "id": 5
     },
     {
       "takeawayId": 11,
@@ -171,9 +158,14 @@
       "id": 6
     },
     {
+      "takeawayId": 10,
+      "categoryId": 5,
+      "id": 8
+    },
+    {
       "takeawayId": 12,
       "categoryId": 7,
-      "id": 7
+      "id": 10
     }
   ]
 }

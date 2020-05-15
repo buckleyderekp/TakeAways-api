@@ -7,6 +7,12 @@
       "takeaway": "Tactical empathy. An inventory of the other persons point of view without judgement or disagreement"
     },
     {
+      "id": 13,
+      "userId": 7,
+      "sourceId": 6,
+      "takeaway": "The flight or fight response affects you in the same ways whether the threat is real life threatening danger or a percieved threat through a stressful situation in our daily lives"
+    },
+    {
       "id": 10,
       "userId": 1,
       "sourceId": 4,
@@ -23,20 +29,24 @@
       "userId": 1,
       "sourceId": 7,
       "takeaway": "The human heart has 40,000 sensory neurites that are like brain cells and are capable of storing memories"
+    },
+    {
+      "userId": 7,
+      "sourceId": 10,
+      "takeaway": "Wine is good",
+      "id": 14
     }
   ],
   "categories": [
     {
-      "category": "NeuroScience",
-      "id": 1
-    },
-    {
       "category": "Quantum Physics",
-      "id": 2
+      "id": 2,
+      "userId": 1
     },
     {
       "category": "Negotiation",
-      "id": 3
+      "id": 3,
+      "userId": 1
     },
     {
       "category": "Salary Negotiation",
@@ -52,6 +62,31 @@
       "category": "Biology",
       "userId": 1,
       "id": 7
+    },
+    {
+      "category": "Stress",
+      "userId": 7,
+      "id": 8
+    },
+    {
+      "category": "Tanner",
+      "userId": 7,
+      "id": 9
+    },
+    {
+      "category": "Wine",
+      "userId": 7,
+      "id": 10
+    },
+    {
+      "category": "Job Hunting",
+      "userId": 7,
+      "id": 11
+    },
+    {
+      "category": "neuroscience",
+      "userId": 7,
+      "id": 13
     }
   ],
   "users": [
@@ -64,8 +99,38 @@
     {
       "email": "drock5121@gmail.com",
       "password": "thisisapassword",
-      "name": "D Rock BoHam",
+      "name": "Nick G",
       "id": 2
+    },
+    {
+      "email": "email@gmail.com",
+      "password": "thisisapassword",
+      "name": "Kristen H",
+      "id": 3
+    },
+    {
+      "email": "gmail@gmail.com",
+      "password": "thisisapassword",
+      "name": "Jon D",
+      "id": 4
+    },
+    {
+      "email": "thomas@gmail.com",
+      "password": "thisisapassword",
+      "name": "Thomas L",
+      "id": 5
+    },
+    {
+      "email": "Mark@gmail.com",
+      "password": "thisisapassword",
+      "name": "Mark M",
+      "id": 6
+    },
+    {
+      "email": "crys@gmail.com",
+      "password": "thisisapassword",
+      "name": "Crystal E",
+      "id": 7
     }
   ],
   "sources": [
@@ -77,15 +142,33 @@
     },
     {
       "source": "Pre-suasion",
+      "id": 5,
       "typeId": 2,
-      "userId": 1,
-      "id": 5
+      "userId": 1
     },
     {
       "source": "Neurosculpting: Stress",
       "typeId": 2,
-      "userId": 1,
+      "userId": 7,
       "id": 6
+    },
+    {
+      "source": "The World Atlas Of Wine",
+      "typeId": 1,
+      "userId": 7,
+      "id": 10
+    },
+    {
+      "source": "The Story of Edgar Sawtelle",
+      "typeId": 1,
+      "userId": 7,
+      "id": 8
+    },
+    {
+      "source": "A Dogs Purpose",
+      "typeId": 1,
+      "userId": 7,
+      "id": 9
     },
     {
       "source": "Missing Links",
@@ -132,11 +215,6 @@
   "following": [
     {
       "id": 1,
-      "followerId": 1,
-      "FollowedId": 2
-    },
-    {
-      "id": 1,
       "followerId": 2,
       "FollowedId": 1
     }
@@ -163,9 +241,14 @@
       "id": 8
     },
     {
-      "takeawayId": 12,
-      "categoryId": 7,
-      "id": 10
+      "takeawayId": 14,
+      "categoryId": 10,
+      "id": 12
+    },
+    {
+      "takeawayId": 13,
+      "categoryId": 8,
+      "id": 13
     }
   ]
 }
